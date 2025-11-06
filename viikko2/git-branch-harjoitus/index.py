@@ -13,3 +13,4 @@ print(f"{x} - {y} = {erotus(x, y)}") # muutos mainissa
 
 logger("lopetetaan")
 print("goodbye!") # lisäys bugikorjaus-branchissa
+print("and happy halloween!")
