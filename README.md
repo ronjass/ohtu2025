@@ -1,6 +1,6 @@
 # ohtu2025
 
-Helsingin yliopiston Ohjelmistotuonto-kurssin tehtävien repositorio.
+Helsingin yliopiston syksyn 2025 Ohjelmistotuonto-kurssin tehtävien repositorio.
 
 Linkit kurssin muiden tehtävien repositorioihin:
 
