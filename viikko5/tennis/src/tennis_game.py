@@ -12,6 +12,8 @@ class TennisGame:
             self.player1_score += 1
         elif player_name == "player2":
             self.player2_score += 1
+        else:
+            raise ValueError(f"Invalid player name: {player_name}")
 
     def get_score(self) -> str:
         if self.player1_score == self.player2_score:
