@@ -19,4 +19,8 @@ class QueryBuilder:
         self.matcher = And(self.matcher, HasFewerThan(value, attr))
         return self
 
+    def one_of(self, *builders):
+        matchers = [b.matcher for b in builders]
+        self.matcher = Or(*matchers)
+        return self
     
